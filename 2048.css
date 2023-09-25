@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e9d8c9;
+}
+
+h1, 
+h2 {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(168, 143, 143);
+    border-radius: 10px;
+    border-style: solid;
+    border: 6px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    background-color: rgb(168, 143, 143);
+    border: 5px solid rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* coloured tiles */
+
+.x2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.x16 {
+    background-color: #e99d52;
+    color: #ffffff;
+}
+
+.x32 {
+    background-color: #ee6161;
+    color: #ffffff;
+}
+
+.x64 {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.x128 {
+    background-color: #f8b525;
+    color: #ffffff;
+}
+
+.x256 {
+    background-color: #edcc63;
+    color: #ffffff;
+}
+
+.x512 {
+    background-color: #edc651;
+    color: #ffffff;
+}
+
+.x1024 {
+    background-color: #eec744;
+    color: #ffffff;
+}
+
+.x2048 {
+    background-color: #ecc230;
+    color: #ffffff;
+}
+
+.x4096 {
+    background-color: #ecc230;
+    color: #ffffff;
+}
+
+.x8192 {
+    background-color: #000000;
+    color: white;
+}
