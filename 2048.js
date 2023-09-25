@@ -93,6 +93,18 @@ document.addEventListener("keyup", (e) => {
     else if (e.code == "ArrowDown") {
         slideDown();
     }
+    else if (e.code == "SwipeLeft") {
+        slideLeft();
+    }
+    else if (e.code == "SwipeRight") {
+        slideRight();
+    } 
+    else if (e.code == "SwipeUp") {
+        slideUp();
+    }
+    else if (e.code == "SwipeDown") {
+        slideDown();
+    }
     setTwo();
     document.getElementById("score").innerText = score;
 })
