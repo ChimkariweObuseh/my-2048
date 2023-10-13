@@ -39,8 +39,8 @@ button {
     padding: 50px 50px 50px 50px;
     background-color: #c2bc88;
     border-style: dashed;
-    display: flex;
-    margin: 50px 50px 50px 50px;
+    display: inline-block;
+    margin: auto;
 }
 
 /* coloured tiles */
