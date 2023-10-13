@@ -15,33 +15,30 @@
             Score: <span id="score">0</span>
         </h2>
     <div id="board"></div>
-    <button onclick="
+    <div class="buttons">
+            <button onclick="
         slideLeft();
         setTwo();
-        document.getElementById("score").innerText = score;
         ">
         Left
     </button>
     <button onclick="
         slideUp();
         setTwo();
-        document.getElementById("score").innerText = score;
         ">
         Up
     </button>
     <button onclick="
         slideDown();
         setTwo();
-        document.getElementById("score").innerText = score;
         ">
         Down
     </button>
     <button onclick="
         slideRight();
-        setTwo();
-        document.getElementById("score").innerText = score;
-        ">
-        Right
+        setTwo();">
+       Right
     </button>
+    </div>
 </body>
 </html>
